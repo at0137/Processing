@@ -32,7 +32,7 @@ void clearBackground() {
 void draw() {
 
   _radiusnoise += 0.005;
-  _radius = (noise(_radiusnoise) * 550) +1;
+  _radius = (noise(_radiusnoise) * 550) +1; // r = noise(1~550)
 
   _angnoise += 0.005;
   _angle += (noise(_angnoise) * 6) - 3;
